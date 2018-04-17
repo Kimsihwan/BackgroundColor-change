@@ -14,12 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func btnY(_ sender: Any) {
+        view.backgroundColor = UIColor.yellow
     }
-
-
+    
+    @IBAction func btnB(_ sender: Any) {
+         view.backgroundColor = UIColor.blue
+    }
+    
+    @IBAction func btnG(_ sender: Any) {
+         view.backgroundColor = UIColor.green
+    }
+    
+    
 }
 
